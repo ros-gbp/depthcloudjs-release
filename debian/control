@@ -1,0 +1,12 @@
+Source: ros-groovy-depthcloudjs
+Section: misc
+Priority: extra
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/depthcloudjs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-depthcloudjs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-depthcloud-encoder, ros-groovy-depthcloud-launch, ros-groovy-depthcloud-www
+Description: Depthcloudjs meta package
