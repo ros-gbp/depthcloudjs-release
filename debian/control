@@ -1,0 +1,12 @@
+Source: ros-groovy-depthcloud-www
+Section: misc
+Priority: extra
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/depthcloudjs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-depthcloud-www
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: HTML files to render pointclouds within the web browser
